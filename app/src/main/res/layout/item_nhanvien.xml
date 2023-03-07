@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability = "blocksDescendants"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView
+            android:id="@+id/backitem"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <ImageView
+            android:id="@+id/img_nhanvien"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            app:layout_constraintTop_toTopOf="@id/backitem"
+            app:layout_constraintStart_toStartOf="@id/backitem"
+            app:layout_constraintBottom_toBottomOf="@id/backitem"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            />
+        <TextView
+            android:id="@+id/ma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_ma"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@id/img_nhanvien"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="10dp"
+            />
+        <TextView
+            android:id="@+id/maNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@id/ma"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="5dp"
+            />
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_tennv"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/img_nhanvien"
+            app:layout_constraintTop_toBottomOf="@id/maNV"
+            android:layout_marginStart="10dp"
+
+            />
+        <TextView
+            android:id="@+id/tenNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAA"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@id/ten"
+            app:layout_constraintTop_toBottomOf="@id/maNV"
+            android:layout_marginStart="5dp"
+
+            />
+        <TextView
+            android:id="@+id/tenPhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_tenpb"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            app:layout_constraintTop_toBottomOf="@id/tenNV"
+            app:layout_constraintStart_toEndOf="@id/img_nhanvien"
+            />
+        <TextView
+            android:id="@+id/tenPB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BBBBBBBBBB"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintTop_toBottomOf="@id/tenNV"
+            app:layout_constraintStart_toEndOf="@id/tenPhong"
+
+            />
+
+        <ImageButton
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@android:drawable/ic_input_delete"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_upload"
+            app:layout_constraintEnd_toEndOf="@id/btnXoa"
+            app:layout_constraintTop_toBottomOf="@id/btnXoa"
+
+            tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

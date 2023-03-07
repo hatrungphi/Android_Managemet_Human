@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">QuanLyNhanSu</string>
+    <string name="title_dn">Đăng nhập</string>
+    <string name="title_ht">Họ tên</string>
+    <string name="title_mk">Mật Khẩu</string>
+    <string name="title_dsnv">Danh Sách Nhân Viên</string>
+    <string name="title_dspb">Danh Sách Phòng Ban</string>
+    <string name="title_them">THÊM</string>
+    <string name="title_xoa">XÓA</string>
+    <string name="title_sua">SỬA</string>
+    <string name="title_ma">Mã :</string>
+    <string name="title_mapb">Mã PB :</string>
+    <string name="title_tenpb">Ten PB :</string>
+    <string name="title_manv">Mã:</string>
+    <string name="title_tennv">Tên Nhân Viên:</string>
+    <string name="title_diachi">Địa chỉ :</string>
+    <string name="title_qlns">QUẢN LÝ NHÂN SỰ</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYW52aW5obHVvbmciLCJhIjoiY2w5bTcwcjJpMmM4djNwbW5waWZpYWRmdCJ9.9D7BI7KYGE9zqlxw8KcLUw</string>
+</resources>
